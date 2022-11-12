@@ -29,8 +29,7 @@ $url =  $path.'/result.php?'.$queryStringData;
 
 QRcode::png($url, $qrcode, 'H', 4, 4);
 
-echo '1';
-// echo "<img src='" . $qrcode . "'>";
+echo "<img src='" . $qrcode . "'>";
       
 ?>
 </body>
