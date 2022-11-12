@@ -9,9 +9,9 @@
 </head>
 <body>
 <?php
-require_once('phpqrcode/qrlib.php');
+require_once('../phpqrcode/qrlib.php');
 
-$path = 'images/';
+$path = '../images/';
 
 $qrcode = $path . time() . ".png";
 

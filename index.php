@@ -14,7 +14,7 @@
 
 <body>
   <div class="container">
-    <form action="qr.php"  method="POST">
+    <form action="page/qr.php"  method="POST">
 
       <label for="fname">Họ và tên</label>
       <input type="text" id="fname" name="name" placeholder="Họ và tên ..">
@@ -29,6 +29,5 @@
 
     </form>
   </div>
-
 </body>
 </html>
